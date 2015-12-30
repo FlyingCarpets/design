@@ -183,7 +183,7 @@ a:hover {
   background-image: url('objektai1.jpg');
   background-size: cover;
   background-position: right;
-  transition: 1s;
+  /*transition: 1s;*/
 }
 .thumbnail #interior .caption {
   background-image: url('siena_grey.jpg');
@@ -196,7 +196,7 @@ a:hover {
   background-image: url('siena.jpg');
   background-size: cover;
   background-position: center;
-  transition: 1s;
+  /*transition: 1s;*/
 }
 .thumbnail #exterior .caption {
   background-image: url('airport2_small_grey.jpg');
@@ -209,7 +209,7 @@ a:hover {
   background-image: url('airport2_small.jpg');
   background-size: cover;
   background-position: center;
-  transition: 1s;
+  /*transition: 1s;*/
 }
 .thumbnail #objects .caption {
   background-image: url('kede3_small_grey.jpg');
@@ -222,7 +222,7 @@ a:hover {
   background-image: url('kede3_small.jpg');
   background-size: cover;
   background-position: center;
-  transition: 1s;
+  /*transition: 1s;*/
 }
 .caption h2 {
   padding-top: 10px;
