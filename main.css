@@ -86,6 +86,7 @@ body {
   text-align: center;
   width: 78%; 
   opacity: 0.8;
+  line-height: 130%;
 }
 
 /*@media (min-width:1600px) {
