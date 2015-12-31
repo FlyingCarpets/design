@@ -89,28 +89,6 @@ body {
   line-height: 130%;
 }
 
-/*@media (min-width:1600px) {
-  .jumbotron .title h1 {
-    font-size: 77px;
-    margin-left: 200px;
-  }
-}
-@media (min-width: 1360px) {
-  .jumbotron .title h1 {
-    padding-left: 30px; 
-  }
-}
-/*@media (min-width: 1285px) {
-  .jumbotron .title h1 {
-    padding-left: 50px; 
-  }
-}
-
-@media (max-width: 1275px) {
-  .jumbotron h1 {
-    width: 83%;
-  }
-}*/
 @media (max-width: 1275px) {
   .jumbotron h1 {
     width: 83%;
@@ -174,56 +152,56 @@ a:hover {
   width: auto;
 }
 .thumbnail #presents .caption {
-  background-image: url('objektai1_grey.jpg');
+  background-image: url('objektai2_grey.jpg');
   background-size: cover;
   background-position: right;
   height: 415px;
   width: auto;
 }
 .thumbnail #presents .caption:hover {
-  background-image: url('objektai1.jpg');
+  background-image: url('objektai2.jpg');
   background-size: cover;
   background-position: right;
-  /*transition: 1s;*/
+  transition: 1s;
 }
 .thumbnail #interior .caption {
-  background-image: url('siena_grey.jpg');
+  background-image: url('siena1_grey.jpg');
   background-size: cover;
   background-position: center;
   height: 415px;
   width: auto;
 }
 .thumbnail #interior .caption:hover {
-  background-image: url('siena.jpg');
+  background-image: url('siena1.jpg');
   background-size: cover;
   background-position: center;
-  /*transition: 1s;*/
+  transition: 1s;
 }
 .thumbnail #exterior .caption {
-  background-image: url('airport2_small_grey.jpg');
+  background-image: url('airport3_small_grey.jpg');
   background-size: cover;
   background-position: center;
   height: 415px;
   width: auto;
 }
 .thumbnail #exterior .caption:hover {
-  background-image: url('airport2_small.jpg');
+  background-image: url('airport3_small.jpg');
   background-size: cover;
   background-position: center;
-  /*transition: 1s;*/
+  transition: 1s;
 }
 .thumbnail #objects .caption {
-  background-image: url('kede3_small_grey.jpg');
+  background-image: url('kede4_small_grey.jpg');
   background-size: cover;
   background-position: center;
   height: 415px;
   width: auto;
 }
 .thumbnail #objects .caption:hover {
-  background-image: url('kede3_small.jpg');
+  background-image: url('kede4_small.jpg');
   background-size: cover;
   background-position: center;
-  /*transition: 1s;*/
+  transition: 1s;
 }
 .caption h2 {
   padding-top: 10px;
