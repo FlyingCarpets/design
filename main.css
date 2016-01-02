@@ -138,6 +138,7 @@ a:hover {
   height: 415px;
 }
 .thumbnail {
+  background-color: #858485;
   position: relative;
   border: none;
   padding: 0;
