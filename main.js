@@ -42,6 +42,16 @@ $(document).ready(function(){
     var height = ($('.navbar-collapse.in').length == 0) ? '120px' : 0;
     $('#services').css({marginTop: height});
    	});
+
+	//anchor link scroll to element
+	$('#index').localScroll({duration:800});
+	$('html,body').animate({
+  		scrollTop: $('index.html#scroll').offset().top
+	});
+	
+	//$('html,body').animate({
+  		//scrollTop: $("#scroll").offset().top
+	//});
 });
 
 

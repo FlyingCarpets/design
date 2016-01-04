@@ -329,6 +329,24 @@ a:hover {
 .container #services {
   position: relative;
 }
+.breadcrumb {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 50px;
+}
+.breadcrumb a {
+     color: #2d434e;
+}
+.breadcrumb a:hover {
+     text-decoration: none;
+}
+.breadcrumb > .active {
+     color: #1d76bb;
+}
+.breadcrumb > li + li:before {
+     content: "\00BB";
+     color: #aaa;
+}
 .container h2{
   padding-top: 20px;
 }
@@ -359,6 +377,10 @@ a:hover {
   .container div h2, div h4 {
     padding-left: 0px;
   }
+  .container .breadcrumb {
+    margin-left: 0px;
+    width: 80%;
+  }
   .container h2 {
     padding-top: 5px;
   }
@@ -367,6 +389,11 @@ a:hover {
   }
   div h2 {
     font-size: 20px;
+  }
+}
+@media (max-width:414px){
+ .container .breadcrumb {
+    width: 100%;
   }
 }
 /*ABOUT, CONTACTS*/

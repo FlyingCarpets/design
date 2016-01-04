@@ -8,6 +8,9 @@
 <title>InCommon</title>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="Javascripts/jquery-1.11.3.min.js"></script><!--1stjQuery plugin-->
+<script src="Javascripts/jquery.scrollTo-2.1.2/jquery.scrollTo.min.js" type="text/javascript"></script> 
+<script src="Javascripts/jquery.localScroll-1.4.0/jquery.localScroll.js" type="text/javascript"></script> 
+
 <script type="text/javascript" src="main.js"></script><!--2ndcustom jQ-->
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -18,7 +21,7 @@
 
 </head>
 
-<body>
+<body id="index">
 		<div class="jumbotron">
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container">
@@ -34,8 +37,9 @@
 	                    <div class="collapse navbar-collapse" id="navbar-container">
 	                    	<div class="pull-right">
 		                        <ul class="nav navbar-nav">
-									<li role="presentation"><a href="index.html">TITULINIS</a></li>
+									<li class="active" role="presentation"><a href="index.html">TITULINIS</a></li>
 									<li role="presentation"><a href="apie.html">APIE MUS</a></li>
+									<li role="presentation"><a href="index.html#scroll">PASLAUGOS</a></li>
 									<li role="presentation"><a href="kontaktai.html">KONTAKTAI</a></li>
 		                        </ul>
 	                    	</div>
@@ -48,6 +52,7 @@
         	</div>
         </div><!--jumbotron-->
 
+        <div id="scroll">
 		<div class="row">
 			<div class="col-md-6">
 			    <div class="thumbnail text-center">
@@ -92,6 +97,7 @@
 			    </div>
 			</div>
 		</div>
+		</div><!--scroll-->
 
 
 
