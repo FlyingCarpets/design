@@ -52,6 +52,16 @@ $(document).ready(function(){
 	//$('html,body').animate({
   		//scrollTop: $("#scroll").offset().top
 	//});
+
+	//image preloader
+	$.preloadImages = function() {
+ 		for (var i = 0; i < arguments.length; i++) {
+    	$("<img />").attr("src", arguments[i]);
+  		}
+	}
+
+	$.preloadImages("objektai2.jpg","siena1.jpg","airport3_small.jpg","kede4_small.jpg");
+
 });
 
 
