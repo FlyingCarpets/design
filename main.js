@@ -54,13 +54,13 @@ $(document).ready(function(){
 	//});
 
 	//image preloader
-	$.preloadImages = function() {
- 		for (var i = 0; i < arguments.length; i++) {
-    	$("<img />").attr("src", arguments[i]);
-  		}
+		$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
 	}
 
-	$.preloadImages("objektai2.jpg","siena1.jpg","airport3_small.jpg","kede4_small.jpg");
+	$(['objektai2.jpg','siena1.jpg','airport3_small.jpg', 'kede4_small.jpg']).preload();
 
 });
 
