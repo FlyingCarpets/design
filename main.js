@@ -1,5 +1,12 @@
 $(document).ready(function(){
 	//alert("Busy");
+	//image preloader
+	$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+	}
+	$(['objektai2.jpg','siena1.jpg','airport3_small.jpg', 'kede4_small.jpg']).preload();
 
 	$('#presents').hover (
 		function(){
@@ -53,14 +60,6 @@ $(document).ready(function(){
   		//scrollTop: $("#scroll").offset().top
 	//});
 
-	//image preloader
-	$.fn.preload = function() {
-    this.each(function(){
-        $('<img/>')[0].src = this;
-    });
-	}
-
-	$(['objektai2.jpg','siena1.jpg','airport3_small.jpg', 'kede4_small.jpg']).preload();
 
 });
 
