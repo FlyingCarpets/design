@@ -50,20 +50,21 @@ $(document).ready(function(){
     $('#services').css({marginTop: height});
    	});
 
-
-	//$('html,body').animate({
-  		//scrollTop: $("#scroll").offset().top
-	//});
-
-});
-
-
-$(window).load(function(){
-
 	//anchor link scroll to element
 	$('#index').localScroll({duration:800});
 	$('html,body').animate({
   		scrollTop: $('index.html#scroll').offset().top
 	});
+	
+	//$('html,body').animate({
+  		//scrollTop: $("#scroll").offset().top
+	//});
+
+
 });
+
+
+
+
+
 
