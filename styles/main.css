@@ -1,0 +1,470 @@
+/**{
+  border: solid 1px black;
+}*/
+
+/*#858585 - darker grey*/
+
+/*MAIN PAGE*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 60px;
+  overflow-x: hidden;
+}
+.navbar-default {
+  background: rgba(0,0,0,0);/*transparent header*/
+}
+.jumbotron .navbar-default .menu {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.jumbotron .navbar-default .menu a {
+  color: #2d434e;
+}
+.jumbotron .navbar-default .logo img {
+  height: 100px;
+}
+.jumbotron .navbar-default .menu ul {
+  padding-top: 0px;
+}
+.jumbotron .navbar-default ul li {
+  padding-left: 20px;
+}
+.jumbotron .navbar-default {
+  margin-top: -30px;
+}
+.jumbotron {
+  margin-bottom: 0;
+}
+.navbar-nav {
+  border-bottom: none;
+}
+.navbar-nav>li>a:hover {
+  border: none;
+}
+.navbar-default {
+  border: none;
+  margin-bottom: 0;
+}
+.navbar-default ul {
+  text-align: center;
+  padding-right: 15px;
+}
+
+@media (max-width:770px) {
+  .jumbotron .navbar-default .logo img {
+    height: 80px;
+    padding: 10px 0 0 10px;
+  }
+  .jumbotron .navbar-default .menu ul {
+    background: #fff;
+  }
+  .navbar-toggle {
+    margin-top: 20px;
+  }
+}
+@media (max-width:640px){
+  .jumbotron .navbar-default .logo img {
+    height: 70px;
+  }
+}
+/*JUMBOTRON*/
+.jumbotron {
+  background-image: url('../images/Airport/airport1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.jumbotron h1 {
+  color: #2d434e;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 500px;
+  text-align: center;
+  width: 78%; 
+  opacity: 0.8;
+  line-height: 130%;
+}
+
+@media (max-width: 1275px) {
+  .jumbotron h1 {
+    width: 83%;
+  }
+}
+@media (max-width: 990px) {
+  .jumbotron {
+    height: 600px;
+  }
+  .jumbotron h1 {
+    margin-top: 300px;
+    font-size: 50px;
+    width: 85%;
+  }
+}
+
+@media (max-width:640px){
+  .jumbotron {
+    height: 300px;  
+  }
+  .jumbotron h1 {
+    margin-top: 110px;/*new*/
+    font-size: 37px;
+    width: 97%;
+  }
+}
+@media (max-width:414px) {
+  .jumbotron h1 {
+    margin-top: 100px;/*new*/
+  }
+}
+@media (max-width:375px){
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+}
+
+/*THUMBNAIL*/
+a:hover {
+    text-decoration: none;
+}
+.row {
+  margin: 5px 0px 5px 5px;
+}
+.row .col-md-6 {
+  padding: 0;
+  height: 415px;
+}
+.thumbnail {
+  background-color: #858485;
+  position: relative;
+  border: none;
+  padding: 0;
+  margin-right:7px;
+}
+.caption {
+  position: relative;
+}
+
+.thumbnail img {
+  height: 415px;
+  width: auto;
+}
+.thumbnail #presents .caption {
+  background-image: url('../images/Objects/objektai2_grey.jpg');
+  background-size: cover;
+  background-position: right;
+  height: 415px;
+  width: auto;
+}
+.thumbnail #presents .caption:hover {
+  /*background-image: url('objektai2.jpg');*/
+  background: url('../images/Objects/objektai2.jpg') no-repeat -9999px -9999px;
+  background-size: cover;
+  background-position: right;
+  transition: 1s;
+}
+.thumbnail #interior .caption {
+  background-image: url('../images/Wall/siena1_grey.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 415px;
+  width: auto;
+}
+.thumbnail #interior .caption:hover {
+  /*background-image: url('siena1.jpg');*/
+  background: url('../images/Wall/siena1.jpg') no-repeat -9999px -9999px;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+.thumbnail #exterior .caption {
+  background-image: url('../images/Airport/airport3_small_grey.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 415px;
+  width: auto;
+}
+.thumbnail #exterior .caption:hover {
+  /*background-image: url('airport3_small.jpg');*/
+  background: url('../images/Airport/airport3_small.jpg') no-repeat -9999px -9999px;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+.thumbnail #objects .caption {
+  background-image: url('../images/Objects/kede4_small_grey.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 415px;
+  width: auto;
+}
+.thumbnail #objects .caption:hover {
+  /*background-image: url('kede4_small.jpg');*/
+  background: url('../images/Objects/kede4_small.jpg') no-repeat -9999px -9999px;
+  background-size: cover;
+  background-position: center;
+  transition: 1s;
+}
+.caption h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  margin-left: 120px;
+  color: #2d434e;
+  width: 60%;
+  background-color: white;
+}
+.caption h2:nth-child(2) {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+@media (min-width:1366px) {
+  .caption h2 {
+    margin-top: 100px;
+    margin-left: 170px;
+  }
+}
+@media (min-width: 1224px) {
+  .caption h2 {
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+}
+@media (max-width: 990px) {
+  .row {
+    margin: 0px 0px 0px 5px;
+  }
+  .thumbnail #presents {
+    margin-top: 5px;
+  }
+  .row .col-md-6 {
+    height: 350px;
+    padding-bottom: 5px;
+  }
+  .thumbnail #presents .caption, .thumbnail #interior .caption, .thumbnail #exterior .caption, .thumbnail #objects .caption {
+    height: 345px;
+  }
+}
+@media (max-width:770px) {
+  .row .col-md-6 {
+    height: 300px;
+    padding-bottom: 5px;
+  }
+  .thumbnail #presents .caption, .thumbnail #interior .caption, .thumbnail #exterior .caption, .thumbnail #objects .caption {
+    height: 295px;
+  }
+}
+@media (max-width:640px){
+  .caption h2 {
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+}
+@media (max-width:414px) {
+    .caption h2 {
+      margin-top: 70px;
+      margin-left: 60px;
+  }
+}
+
+/*FOOTER*/
+
+#footer {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  background-color: #2d434e;
+}
+#footer p {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #fff;
+}
+#footer .pull-right {
+  padding-top: 5px;
+  padding-left: 250px;
+}
+
+#footer .fa-2x{
+  color: #fff;
+  padding-left: 10px;
+}
+#footer .fa-2x:hover{
+  color: #1d76bb;
+}
+@media (max-width:1030px) {
+  #footer .pull-right {
+    padding-left: 100px;
+  }
+  #footer .col-md-8 {
+    padding-right: 300px;
+  }
+}
+@media (max-width:990px) {
+    #footer .col-md-8 {
+      padding-right: 0px;
+      width: 97%;
+    }
+    #footer .col-md-4{
+      padding-left: 0px;
+      padding-top: 0px;
+      width: 97%;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px){
+  #footer .col-md-4,.col-md-8  {
+    padding-left: 5px;
+  }
+}
+
+/**INTERIOR, EXTERIOR, PRESENTS, OBJECTS**/
+.banner .jumbotron {
+  background-image: url("../images/Airport/airport1_nav1.jpg");
+  height: 150px;
+}
+.container #services {
+  position: relative;
+}
+.breadcrumb {
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 50px;
+}
+.breadcrumb a {
+     color: #2d434e;
+}
+.breadcrumb a:hover {
+     text-decoration: none;
+}
+.breadcrumb > .active {
+     color: #1d76bb;
+}
+.breadcrumb > li + li:before {
+     content: "\00BB";
+     color: #aaa;
+}
+.container h2{
+  padding-top: 20px;
+}
+.container .gallery {
+  margin: 0 auto;
+}
+.container .gallery li {
+  list-style-type: none;
+  /*margin: auto;*/
+}
+.container div h2, div h4 {
+  padding-left: 50px;
+}
+.container .gallery img {
+  padding-bottom: 10px;
+}
+@media (max-width: 1224px) {
+  .gallery img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width:770px){
+  .banner .jumbotron {
+    height: 90px;
+  }
+  .container div h2, div h4 {
+    padding-left: 0px;
+  }
+  .container .breadcrumb {
+    margin-left: 0px;
+    width: 80%;
+  }
+  .container h2 {
+    padding-top: 5px;
+  }
+  .container .gallery ul {
+    padding-left: 0;
+  }
+  div h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width:414px){
+ .container .breadcrumb {
+    width: 100%;
+  }
+}
+/*ABOUT, CONTACTS*/
+.about_contacts .jumbotron {
+  background-image: url("../images/About_Contacts/airport3_about.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.about_contacts h1 {
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  width: 50%; 
+  opacity: 1;
+}
+.about .col-md-12:first-child {
+  height: 600px;
+  background-color: #443b3d;
+}
+.about .col-md-12 p {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 220px;
+}
+.about .col-md-12:nth-child(2) {
+  background-image: url("../images/About_Contacts/airport4_about.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+@media (max-width:1030px) {
+  .about .col-md-12 p {
+    margin-top: 0px;
+    padding-top: 250px;
+  }
+}
+@media (max-width:770px) {
+  .about .col-md-12 p {
+    padding-top: 200px;
+  }
+}
+@media (max-width:414px) {
+  .about .col-md-12 p {
+    padding-top: 100px;
+    font-size: 20px;
+  }
+  .about .col-md-12:first-child {
+    height: 400px;
+  }
+  .about_contacts h1 {
+    margin-top: 70px;
+    width: 60%;  
+  }
+}
+@media (max-width:375px){
+  .about .col-md-12 p {
+    padding-top: 70px;
+    font-size: 20px;
+  }
+  .about_contacts .jumbotron {
+    height: 300px;
+  }
+  .about .col-md-12:nth-child(2) {
+  height: 300px;
+  }
+  .about_contacts h1 {
+    margin-top: 70px;
+  }
+}
