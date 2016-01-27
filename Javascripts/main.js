@@ -6,7 +6,7 @@ $(document).ready(function(){
         $('<img/>')[0].src = this;
     });
 	}
-	$(['objektai2.jpg','siena1.jpg','airport3_small.jpg', 'kede4_small.jpg']).preload();
+	$(['images/Objects/objektai2.jpg','images/Wall/siena1.jpg','images/Airport/airport3_small.jpg', 'images/Objects/kede4_small.jpg']).preload();
 
 	$('#presents').hover (
 		function(){
