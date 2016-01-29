@@ -1,10 +1,4 @@
-/**{
-  border: solid 1px black;
-}*/
-
-/*#858585 - darker grey*/
-
-/*MAIN PAGE*/
+/*MAIN ELEMENTS-------------------------------------*/
 html {
     position: relative;
     min-height: 100%;
@@ -14,9 +8,7 @@ body {
   margin-bottom: 60px;
   overflow-x: hidden;
 }
-.navbar-default {
-  background: rgba(0,0,0,0);/*transparent header*/
-}
+/*MAIN PAGE-----------------------------------------*/
 .jumbotron .navbar-default .menu {
   font-size: 20px;
   margin-top: 20px;
@@ -38,6 +30,9 @@ body {
 }
 .jumbotron {
   margin-bottom: 0;
+}
+.navbar-default {
+  background: rgba(0,0,0,0);/*transparent header*/
 }
 .navbar-nav {
   border-bottom: none;
@@ -71,7 +66,7 @@ body {
     height: 70px;
   }
 }
-/*JUMBOTRON*/
+/*JUMBOTRON-----------------------*/
 .jumbotron {
   background-image: url('../images/Airport/airport1.jpg');
   background-size: cover;
@@ -110,14 +105,14 @@ body {
     height: 300px;  
   }
   .jumbotron h1 {
-    margin-top: 110px;/*new*/
+    margin-top: 110px;
     font-size: 37px;
     width: 97%;
   }
 }
 @media (max-width:414px) {
   .jumbotron h1 {
-    margin-top: 100px;/*new*/
+    margin-top: 100px;
   }
 }
 @media (max-width:375px){
@@ -126,7 +121,7 @@ body {
   }
 }
 
-/*THUMBNAIL*/
+/*THUMBNAIL---------------------*/
 a:hover {
     text-decoration: none;
 }
@@ -160,7 +155,6 @@ a:hover {
   width: auto;
 }
 .thumbnail #presents .caption:hover {
-  /*background-image: url('objektai2.jpg');*/
   background: url('../images/Objects/objektai2.jpg') no-repeat -9999px -9999px;
   background-size: cover;
   background-position: right;
@@ -174,7 +168,6 @@ a:hover {
   width: auto;
 }
 .thumbnail #interior .caption:hover {
-  /*background-image: url('siena1.jpg');*/
   background: url('../images/Wall/siena1.jpg') no-repeat -9999px -9999px;
   background-size: cover;
   background-position: center;
@@ -188,7 +181,6 @@ a:hover {
   width: auto;
 }
 .thumbnail #exterior .caption:hover {
-  /*background-image: url('airport3_small.jpg');*/
   background: url('../images/Airport/airport3_small.jpg') no-repeat -9999px -9999px;
   background-size: cover;
   background-position: center;
@@ -202,7 +194,6 @@ a:hover {
   width: auto;
 }
 .thumbnail #objects .caption:hover {
-  /*background-image: url('kede4_small.jpg');*/
   background: url('../images/Objects/kede4_small.jpg') no-repeat -9999px -9999px;
   background-size: cover;
   background-position: center;
@@ -271,7 +262,7 @@ a:hover {
   }
 }
 
-/*FOOTER*/
+/*FOOTER--------------------*/
 
 #footer {
   position: absolute;
@@ -321,7 +312,7 @@ a:hover {
   }
 }
 
-/**INTERIOR, EXTERIOR, PRESENTS, OBJECTS**/
+/**INTERIOR, EXTERIOR, PRESENTS, OBJECTS----------------------**/
 .banner .jumbotron {
   background-image: url("../images/Airport/airport1_nav1.jpg");
   height: 150px;
@@ -355,7 +346,6 @@ a:hover {
 }
 .container .gallery li {
   list-style-type: none;
-  /*margin: auto;*/
 }
 .container div h2, div h4 {
   padding-left: 50px;
@@ -396,7 +386,7 @@ a:hover {
     width: 100%;
   }
 }
-/*ABOUT, CONTACTS*/
+/*ABOUT, CONTACTS--------------------*/
 .about_contacts .jumbotron {
   background-image: url("../images/About_Contacts/airport3_about.jpg");
   background-size: cover;
