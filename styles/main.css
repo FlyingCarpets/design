@@ -352,9 +352,11 @@ a:hover {
 }
 .container .gallery img {
   padding-bottom: 10px;
+  width: 1000px;
+  height: auto;
 }
 @media (max-width: 1224px) {
-  .gallery img{
+  .container .gallery img{
     width: 100%;
     height: auto;
   }
