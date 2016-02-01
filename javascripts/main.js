@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 	//collapsed navbar pushing down content
 	$('.navbar-default').on('click', function() {
-    var height = ($('.navbar-collapse.in').length == 0) ? '120px' : 0;
+    var height = ($('.navbar-collapse.in').length == 0) ? '170px' : 0;
     $('#services').css({marginTop: height});
    	});
 
